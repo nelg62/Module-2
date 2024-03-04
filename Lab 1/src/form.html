@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <!-- works like <a href="/index.html">Home</a> -->
+      <a href="/src/">Home</a>
+    </nav>
+  </header>
+
+  <main>
+    <form id="subform">
+      <div>
+        <label for="">First Name: <input type="text" name="fname" placeholder="first name"/></label>
+      </div>
+      <div>
+        <label for="">Last Name: <input type="text" name="lname" placeholder="last name"/></label>
+      </div>
+      <div>
+        <label for=""
+          >HTML<input type="radio" name="codelangfav" value="html"
+        /></label>
+        <label for="">CSS<input type="radio" name="codelangfav" value="css" /></label>
+        <label for=""
+          >JavaScript<input type="radio" name="codelangfav" value="JavaScript"
+        /></label>
+      </div>
+
+      <div>
+        <label for="">Bike<input type="checkbox" name="transport" value="bike"/></label>
+        <label for="">Car<input type="checkbox" name="transport" value="car"/></label>
+        <label for="">Plane<input type="checkbox" name="transport" value="plane"/></label>
+      </div>
+
+      <label for="">
+        <select name=carchoice id="">
+          <option value="Red">Red car</option>
+          <option value="blue">Blue Car</option>
+          <option value="green">Green Car</option>
+        </select>
+      </label>
+
+      <button type="submit" id="subbtn">Submit form</button>
+    </form>
+
+    <div>
+      <p id="outputtxt"></p>
+    </div>
+  </main>
+
+  <footer>Copyright &copy; 2024</footer>
+  <script src="./index.js"></script>
+</body>
+
+</html>
