@@ -1,0 +1,97 @@
+/* everything */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* div around all except footer */
+.contentbox {
+    display: flex;
+
+}
+
+/* aside outer box for left info section */
+.infobox {
+    background-color: #86bbd8;
+    min-width: 250px;
+    min-height: calc(100vh - 7vh);
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.i-inbox {
+    display: flex;
+    flex-direction: column;
+}
+
+.infoPic h1,
+.infodetail h1 {
+    padding: 10px;
+    text-align: center;
+}
+
+.i-inbox figcaption {
+    padding: 5px;
+}
+
+.i-inbox h2 {
+    padding: 5px;
+}
+
+.i-inbox h4 {
+    padding: 5px;
+}
+
+.i-inbox a {
+    padding-left: 10px;
+}
+
+/* image inside aside left box  */
+.infobox img {
+    height: 100px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* currently effecting 2 h2 elements making background diferant */
+.infotitle {
+    background-color: #447d9c;
+}
+
+
+/* section inside the skills section with grid display not incliding skills title  */
+.skillssection {
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+/* main element containing everthing on the right side  */
+.maincontent {
+    margin-left: 20px;
+    width: calc(100vw - 250px);
+}
+
+/* ul in the right main section */
+.maincontent ul {
+    margin-left: 50px;
+}
+
+/* sections in the main right side  */
+.maincontent section {
+    border-bottom: 1px solid gray;
+}
+
+/* footer at bottom of screen  */
+footer {
+    background-color: #86bbd8;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    height: 7vh;
+}
