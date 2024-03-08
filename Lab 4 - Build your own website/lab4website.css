@@ -100,3 +100,12 @@ footer {
 footer p {
 margin: auto;
 }
+
+a:link {
+    text-decoration: underline green wavy;
+}
+
+a:hover {
+    text-decoration: underline pink dotted;
+    color: orange;
+}
