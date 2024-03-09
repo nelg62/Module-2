@@ -88,6 +88,11 @@
 /* sections in the main right side  */
 .maincontent section {
     border-bottom: 1px solid gray;
+    margin-top: 10px;
+}
+
+.maincontent section:first-of-type {
+    border-top: 1px solid gray;
 }
 
 /* footer at bottom of screen  */
