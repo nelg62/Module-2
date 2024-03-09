@@ -10,6 +10,16 @@ const result = document.querySelector("#output");
 // create empty choosen number object
 let choosennumbers = [];
 
+
+function MyCtor(element, data) {
+    this.data = data;
+    this.element = element;
+    element.value = data;
+    element.addEventListener("change", this, false)
+  }
+
+//   .change and .userinput
+
 // form prevent default
 // form.addEventListener("submit", (e) => {
 //   e.preventDefault();
