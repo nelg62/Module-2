@@ -11,9 +11,12 @@ const result = document.querySelector("#output");
 let choosennumbers = [];
 
 // form prevent default
-form.addEventListener("submit", (e) => {
-  e.preventDefault();
+// form.addEventListener("submit", (e) => {
+//   e.preventDefault();
   //   create variable formdata from data from form
+  function enternumber(e) {
+    e.preventDefault()
+  
   const formData = new FormData(form);
 
   //   create variable and put object data from fromdata into this
@@ -41,7 +44,8 @@ form.addEventListener("submit", (e) => {
       result.textContent = "Not matched";
     }
   }
-});
+// });
+}
 
 // refresh remove values and refresh random number
 function refresh() {
