@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="numberguess.css">
+</head>
+<body>
+    <!-- project outline -->
+    <!-- Write a JavaScript program where the program takes a 
+    random integer between 1 and 10, and the user is then 
+    prompted to input a guess number. The program displays a 
+    message “Good Work” if the input matches the guess number 
+    otherwise “Not matched”. -->
+
+
+    <form>
+        <h1>Guess the number</h1>
+        <input type="number" id="numchoice" name="numchoice">
+        <input type="submit">
+        
+        <p id="chosenhistory"></p>
+        <p id="output"></p>
+    </form>
+    <button id="refresh" onclick="refresh()">Refresh</button>
+
+
+    <script src="numberguess.js"></script>
+</body>
+</html>
