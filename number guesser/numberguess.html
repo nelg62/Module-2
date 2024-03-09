@@ -17,11 +17,11 @@
 
     <form>
         <h1>Guess the number</h1>
-        <input type="number" id="numchoice" name="numchoice">
+        <input type="number" id="numchoice" name="numchoice" min="1" max="10" required>
         <input type="submit">
         
-        <p id="chosenhistory"></p>
-        <p id="output"></p>
+        <p id="chosenhistory" name="chosenhistory"></p>
+        <p id="output" name="output"></p>
     </form>
     <button id="refresh" onclick="refresh()">Refresh</button>
 
